@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وبسایت شخصی مانی</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    
+    <header>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="#about-me">درباره من</a></li>
+                <li><a href="#my-bots">ربات‌های من</a></li>
+                <li><a href="#social-contact">ارتباط با من</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section id="about-me">
+            <div class="profile-photo">
+                <img src="img.png" alt="Profile Photo" draggable="false">
+            </div>
+            
+            <h2>سلام! مانی هستم</h2>
+            <p>برنامه نویسی رو از ربات های دیسکورد شروع کردم و الان بیشتر از سه ساله که برنامه نویسی میکنم</p>
+        </section>
+        
+        <section id="my-bots">
+            <h2>ربات‌های من</h2>
+            <div class="bot">
+                <h3>ربات پیام مخفی</h3>
+                <p>این ربات طراحی شده تا شما بتوانید هر چیزی که می‌خواهید به من بگویید، بدون اینکه بدانم چه کسی چه چیزی به من گفته است. من فقط پیام‌ها را می‌خوانم.</p>
+                <a href="https://t.me/MisterPokerSecretMessageBot" target="_blank">لینک به ربات پیام مخفی</a>
+            </div>
+            <div class="bot">
+                <h3>ربات ترجمه هما</h3>
+                <p>این ربات بیش از 10 زبان برای ترجمه هر متنی در عرض یک ثانیه دارد. دیوانه کننده نیست؟</p>
+                <a href="https://t.me/Homa_Translate_Bot" target="_blank">لینک به ربات ترجمه هما</a>
+            </div>
+        </section>
+        
+        <section id="social-contact">
+            <h2>ارتباط با من</h2>
+            <ul>
+                <li><a href="tg://openmessage?user_id=5460358235" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></li>
+                <li><a href="https://discord.com/users/your-discord-id" target="_blank"><i class="fab fa-discord"></i> .mister_poker</a></li>
+                <li><a href="mailto:manikaziu@gmail.com"><i class="fas fa-envelope"></i> manikaziu@gmail.com</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-social-icons">
+            <a href="tg://openmessage?user_id=5460358235"><i class="fab fa-telegram"></i></a>
+            <a href="https://instagram.com/mnipv_" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/MisterPoker" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://discord.com/users/625881588638416934" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="mailto:manikaziu@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; CopyRight 2024 | All Rights Reserved</p>
+        <p>Made with ❤️ by MANI :)</p>
+    </footer>
+    
+    <script>
+        // Simulate loading effect and show content after delay
+        $(window).on('load', function() {
+            $('#loader').fadeOut('slow', function() {
+                $('main').fadeIn();
+            });
+        });
+
+        // Toggle dropdown menu on hamburger menu click
+        $('.menu-toggle').click(function() {
+            $('.dropdown-menu').slideToggle();
+        });
+    </script>
+</body>
+</html>
