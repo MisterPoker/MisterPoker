@@ -7,7 +7,7 @@
 /* General styles */
 body {
     font-family: 'Iran Sans', sans-serif; /* Apply Iran Sans font */
-    background-color: #777777; /* Darker background */
+    background-color: #e0e0e0; /* Darker background */
     color: #1f1f1f; /* Darker text color */
     display: flex;
     flex-direction: column;
@@ -30,6 +30,21 @@ header {
     top: 0; /* Align header to top */
     z-index: 1000; /* Ensure header stays on top */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); /* Add shadow to header */
+}
+
+.top-left {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    left: 50px; /* Adjust left position to move it slightly to the right */
+    font-family: 'Iran Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff; /* White text color */
+    z-index: 1100; /* Ensure it's above menu-toggle */
+}
+
+.top-left p {
+    margin: 0;
+    padding: 0;
 }
 
 .menu-toggle {

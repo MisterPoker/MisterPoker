@@ -15,22 +15,27 @@
     </div>
     
     <header>
-        <div class="menu-toggle">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="dropdown-menu">
-            <ul>
-                <li><a href="#about-me">درباره من</a></li>
-                <li><a href="#my-bots">ربات‌های من</a></li>
-                <li><a href="#social-contact">ارتباط با من</a></li>
-            </ul>
+        <div class="header-content">
+            <div class="top-left">
+                <p>𝐌𝐫 𝐏𝐨𝐤𝐞𝐫</p>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="#about-me">درباره من</a></li>
+                    <li><a href="#my-bots">ربات‌های من</a></li>
+                    <li><a href="#social-contact">ارتباط با من</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     
     <main>
         <section id="about-me">
             <div class="profile-photo">
-                <img src="img.png" alt="Profile Photo" draggable="false">
+                <img src="img.jpg" alt="Profile Photo" draggable="false">
             </div>
             
             <h2>سلام! مانی هستم</h2>
@@ -83,6 +88,7 @@
 
         // Toggle dropdown menu on hamburger menu click
         $('.menu-toggle').click(function() {
+            $('header').toggleClass('expanded');
             $('.dropdown-menu').slideToggle();
         });
     </script>
