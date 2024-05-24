@@ -7,8 +7,8 @@
 /* General styles */
 body {
     font-family: 'Iran Sans', sans-serif; /* Apply Iran Sans font */
-    background-color: #e0e0e0; /* Darker background */
-    color: #1f1f1f; /* Darker text color */
+    background-color: #ffffff; /* White background */
+    color: #2b2d42; /* Dark blue-gray text color */
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #333333; /* Darker header background */
+    background-color: #2b2d42; /* Dark blue-gray header background */
     color: #ffffff; /* White text */
     padding: 10px 20px; /* Adjusted padding */
     text-align: center;
@@ -42,11 +42,6 @@ header {
     z-index: 1100; /* Ensure it's above menu-toggle */
 }
 
-.top-left p {
-    margin: 0;
-    padding: 0;
-}
-
 .menu-toggle {
     position: absolute;
     top: 13px;
@@ -56,7 +51,7 @@ header {
 }
 
 .menu-toggle i {
-    color: #ffffff;
+    color: #ffffff; /* White icon color */
     font-size: 24px;
 }
 
@@ -65,7 +60,7 @@ header {
     position: absolute;
     top: 50px; /* Align dropdown below header */
     right: 20px;
-    background-color: #333333;
+    background-color: #2b2d42; /* Dark blue-gray background */
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
@@ -83,14 +78,14 @@ header {
 
 .dropdown-menu ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff; /* White text color */
     display: block;
     padding: 8px 10px;
     transition: background-color 0.3s ease;
 }
 
 .dropdown-menu ul li a:hover {
-    background-color: #555555;
+    background-color: #fb6f92; /* Lighter pink on hover */
 }
 
 main {
@@ -116,7 +111,7 @@ main {
     width: 200px; /* Increased size of profile photo */
     height: 200px; /* Increased size of profile photo */
     border-radius: 50%; /* Circular frame */
-    border: 2px solid #1f1f1f; /* Black border */
+    border: 2px solid #2b2d42; /* Dark blue-gray border */
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -130,7 +125,7 @@ main {
 #about-me h2 {
     font-family: 'Iran Sans', sans-serif;
     font-size: 28px; /* Increased font size */
-    color: #1f1f1f; /* Darker text color */
+    color: #2b2d42; /* Dark blue-gray text color */
     margin-bottom: 10px;
 }
 
@@ -138,13 +133,18 @@ main {
     font-family: 'Iran Sans', sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    color: #1f1f1f; /* Darker text color */
+    color: #2b2d42; /* Dark blue-gray text color */
     margin: 0 20px; /* Add margin on left and right */
 }
 
 /* My bots section */
 #my-bots {
     padding: 20px;
+    min-height: 100vh; /* Minimum height to take up full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 #my-bots h2 {
@@ -152,10 +152,12 @@ main {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
-    color: #1f1f1f; /* Darker text color */
+    color: #2b2d42; /* Dark blue-gray text color */
 }
 
 .bot {
+    width: 80%; /* Adjusted width for better readability */
+    max-width: 600px; /* Max width to limit width on larger screens */
     border: 1px solid #666666; /* Darker border */
     border-radius: 5px;
     padding: 20px;
@@ -166,7 +168,7 @@ main {
 .bot h3 {
     font-family: 'Iran Sans', sans-serif;
     font-size: 20px;
-    color: #1f1f1f; /* Darker text color */
+    color: #2b2d42; /* Dark blue-gray text color */
     margin-bottom: 10px;
 }
 
@@ -174,13 +176,13 @@ main {
     font-family: 'Iran Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #1f1f1f; /* Darker text color */
+    color: #2b2d42; /* Dark blue-gray text color */
 }
 
 .bot a {
     font-family: 'Iran Sans', sans-serif;
     font-size: 16px;
-    color: #007bff; /* Link color */
+    color: #fb6f92; /* Pink link color */
     text-decoration: none;
 }
 
@@ -188,44 +190,9 @@ main {
     text-decoration: underline;
 }
 
-/* Social contact section */
-#social-contact {
-    padding: 20px;
-}
-
-#social-contact h2 {
-    font-family: 'Iran Sans', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #1f1f1f; /* Darker text color */
-}
-
-#social-contact ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-#social-contact ul li {
-    margin: 10px 0;
-}
-
-#social-contact ul li a {
-    text-decoration: none;
-    color: #1f1f1f; /* Darker text color */
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center items horizontally */
-}
-
-#social-contact ul li a i {
-    margin-left: 10px; /* Space between icon and text */
-}
-
 /* Footer section */
 footer {
-    background-color: #333333; /* Darker footer background */
+    background-color: #2b2d42; /* Dark blue-gray footer background */
     color: #ffffff; /* White text */
     text-align: center;
     padding: 20px;
@@ -262,7 +229,7 @@ footer p {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #e0e0e0; /* Match background color */
+    background-color: #ffffff; /* White background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +238,7 @@ footer p {
 .spinner {
     width: 40px;
     height: 40px;
-    background-color: #1f1f1f; /* Darker spinner color */
+    background-color: #2b2d42; /* Dark blue-gray spinner color */
     border-radius: 50%;
     animation: spin 1s infinite ease-in-out;
 }
