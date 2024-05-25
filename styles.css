@@ -7,7 +7,8 @@
 /* General styles */
 body {
     font-family: 'Iran Sans', sans-serif; /* Apply Iran Sans font */
-    background-color: #ffffff; /* White background */
+    background-image: url("image.jpg");
+    background-repeat: repeat;
     color: #2b2d42; /* Dark blue-gray text color */
     display: flex;
     flex-direction: column;
@@ -85,7 +86,7 @@ header {
 }
 
 .dropdown-menu ul li a:hover {
-    background-color: #fb6f92; /* Lighter pink on hover */
+    background-color: #00FFFF; /* Lighter pink on hover */
 }
 
 main {
@@ -111,7 +112,7 @@ main {
     width: 200px; /* Increased size of profile photo */
     height: 200px; /* Increased size of profile photo */
     border-radius: 50%; /* Circular frame */
-    border: 2px solid #2b2d42; /* Dark blue-gray border */
+    border: 2px solid #00FFFF; /* Dark blue-gray border */
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -125,7 +126,7 @@ main {
 #about-me h2 {
     font-family: 'Iran Sans', sans-serif;
     font-size: 28px; /* Increased font size */
-    color: #2b2d42; /* Dark blue-gray text color */
+    color: #00FFFF; /* Pink text color */
     margin-bottom: 10px;
 }
 
@@ -133,7 +134,7 @@ main {
     font-family: 'Iran Sans', sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    color: #2b2d42; /* Dark blue-gray text color */
+    color: #00FFFF; /* Dark blue-gray text color */
     margin: 0 20px; /* Add margin on left and right */
 }
 
@@ -152,7 +153,7 @@ main {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
-    color: #2b2d42; /* Dark blue-gray text color */
+    color: #fb6f92; /* Pink text color */
 }
 
 .bot {
