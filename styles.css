@@ -1,7 +1,7 @@
 /* Define @font-face for Iran Sans from local file */
 @font-face {
     font-family: 'Iran Sans';
-    src: url('C:/Users/pc/Desktop/IRANSansXFaNum-Regular.ttf') format('truetype');
+    src: url('./IRANSansXFaNum-Regular.ttf') format('truetype');
 }
 
 /* General styles */
