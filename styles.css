@@ -140,6 +140,7 @@ main {
 
 /* My bots section */
 #my-bots {
+    
     padding: 20px;
     min-height: 100vh; /* Minimum height to take up full viewport height */
     display: flex;
