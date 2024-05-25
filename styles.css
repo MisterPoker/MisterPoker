@@ -163,6 +163,10 @@ main {
     padding: 20px;
     margin-bottom: 20px;
     background-color: #ffffff; /* White background */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 .bot h3 {
@@ -170,6 +174,7 @@ main {
     font-size: 20px;
     color: #2b2d42; /* Dark blue-gray text color */
     margin-bottom: 10px;
+    text-align: center; /* Center align heading */
 }
 
 .bot p {
@@ -177,6 +182,7 @@ main {
     font-size: 16px;
     line-height: 1.6;
     color: #2b2d42; /* Dark blue-gray text color */
+    text-align: center; /* Center align paragraph */
 }
 
 .bot a {
