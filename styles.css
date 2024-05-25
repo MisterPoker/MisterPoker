@@ -1,8 +1,13 @@
 /* Define @font-face for Iran Sans from local file */
 @font-face {
     font-family: 'Iran Sans';
-    src: url('./IRANSansXFaNum-Regular.ttf') format('truetype');
+    src: url('./IRANSansXFaNum-Regular.ttf') format('truetype'), /* TTF */
+         url('./IRANSans-web.woff') format('woff'), /* WOFF */
+         url('./IRANSans.woff2') format('woff2'); /* WOFF2 */
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 /* General styles */
 body {
