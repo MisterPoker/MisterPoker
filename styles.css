@@ -35,7 +35,7 @@ header {
 
 .top-left {
     position: absolute;
-    top: 10px; /* Adjust top position as needed */
+    top: -6px; /* Adjust top position as needed */
     left: 50px; /* Adjust left position to move it slightly to the right */
     font-family: 'Iran Sans', sans-serif;
     font-size: 18px;
