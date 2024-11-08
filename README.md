@@ -1,8 +1,11 @@
 # 💫 About Me:
 
 🤠 Hi, My name is Mani
+
 🇮🇷 I'm Persian
+
 🔭 I’m currently learning advanced python
+
 ✉️ My website :
 https://misterpoker.site/
 
