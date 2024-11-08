@@ -1,5 +1,6 @@
 # 💫 About Me:
-🔭 I’m currently learning different things... By the way check this out : https://misterpoker.site/
+🔭 I’m currently learning different things...
+By the way check this out : https://misterpoker.site/
 
 
 ## 🌐 Socials:
