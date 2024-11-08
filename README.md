@@ -3,7 +3,7 @@
 🇮🇷 I'm Persian
 🔭 I’m currently learning advanced python
 
-✉️ In case you wanna know me better, check this out :
+✉️ If you wanna know me better, check this out :
 https://misterpoker.site/
 
 
