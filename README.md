@@ -1,6 +1,10 @@
 # 💫 About Me:
-🔭 I’m currently learning different things...
-By the way check this out : https://misterpoker.site/
+🤠 Hi, My name is Mani
+🇮🇷 I'm Persian
+🔭 I’m currently learning advanced python
+
+✉️ In case you wanna know me better, check this out :
+https://misterpoker.site/
 
 
 ## 🌐 Socials:
