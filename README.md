@@ -7,7 +7,7 @@
 🔭 I’m currently learning advanced python
 
 ✉️ My website :
-https://misterpoker.site/
+https://misterpoker.xyz/
 
 
 ## 🌐 Socials:
