@@ -4,7 +4,7 @@
 
 🦁 I'm Persian
 
-🔭 I’m currently learning advanced python
+🔭 I’m currently learning advanced Python & web design
 
 ✉️ My website :
 https://misterpoker.xyz/
